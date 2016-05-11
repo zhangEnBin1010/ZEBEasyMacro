@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E072851CE321A100E91A18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E072841CE321A100E91A18 /* main.m */; };
+		18E072881CE321A100E91A18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E072871CE321A100E91A18 /* AppDelegate.m */; };
+		18E0728B1CE321A100E91A18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0728A1CE321A100E91A18 /* ViewController.m */; };
+		18E0728E1CE321A100E91A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E0728C1CE321A100E91A18 /* Main.storyboard */; };
+		18E072901CE321A100E91A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E0728F1CE321A100E91A18 /* Assets.xcassets */; };
+		18E072931CE321A100E91A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E072911CE321A100E91A18 /* LaunchScreen.storyboard */; };
+		18E0729E1CE321A100E91A18 /* ZEBEasyMacroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0729D1CE321A100E91A18 /* ZEBEasyMacroTests.m */; };
+		18E072A91CE321A100E91A18 /* ZEBEasyMacroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E072A81CE321A100E91A18 /* ZEBEasyMacroUITests.m */; };
+		18E072BE1CE3220900E91A18 /* LZXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E072B81CE3220900E91A18 /* LZXHelper.m */; };
+		18E072BF1CE3220900E91A18 /* NSString+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E072BA1CE3220900E91A18 /* NSString+Tools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E0729A1CE321A100E91A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E072781CE321A100E91A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E0727F1CE321A100E91A18;
+			remoteInfo = ZEBEasyMacro;
+		};
+		18E072A51CE321A100E91A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E072781CE321A100E91A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E0727F1CE321A100E91A18;
+			remoteInfo = ZEBEasyMacro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E072801CE321A100E91A18 /* ZEBEasyMacro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEBEasyMacro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E072841CE321A100E91A18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E072861CE321A100E91A18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E072871CE321A100E91A18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E072891CE321A100E91A18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E0728A1CE321A100E91A18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E0728D1CE321A100E91A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E0728F1CE321A100E91A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E072921CE321A100E91A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E072941CE321A100E91A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E072991CE321A100E91A18 /* ZEBEasyMacroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEBEasyMacroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E0729D1CE321A100E91A18 /* ZEBEasyMacroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEBEasyMacroTests.m; sourceTree = "<group>"; };
+		18E0729F1CE321A100E91A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E072A41CE321A100E91A18 /* ZEBEasyMacroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEBEasyMacroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E072A81CE321A100E91A18 /* ZEBEasyMacroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEBEasyMacroUITests.m; sourceTree = "<group>"; };
+		18E072AA1CE321A100E91A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E072B71CE3220900E91A18 /* LZXHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZXHelper.h; sourceTree = "<group>"; };
+		18E072B81CE3220900E91A18 /* LZXHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZXHelper.m; sourceTree = "<group>"; };
+		18E072B91CE3220900E91A18 /* NSString+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tools.h"; sourceTree = "<group>"; };
+		18E072BA1CE3220900E91A18 /* NSString+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tools.m"; sourceTree = "<group>"; };
+		18E072BC1CE3220900E91A18 /* ZEBEasyConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEBEasyConstant.h; sourceTree = "<group>"; };
+		18E072BD1CE3220900E91A18 /* ZEBEasyMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEBEasyMacro.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E0727D1CE321A100E91A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E072961CE321A100E91A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E072A11CE321A100E91A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E072771CE321A100E91A18 = {
+			isa = PBXGroup;
+			children = (
+				18E072821CE321A100E91A18 /* ZEBEasyMacro */,
+				18E0729C1CE321A100E91A18 /* ZEBEasyMacroTests */,
+				18E072A71CE321A100E91A18 /* ZEBEasyMacroUITests */,
+				18E072811CE321A100E91A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E072811CE321A100E91A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E072801CE321A100E91A18 /* ZEBEasyMacro.app */,
+				18E072991CE321A100E91A18 /* ZEBEasyMacroTests.xctest */,
+				18E072A41CE321A100E91A18 /* ZEBEasyMacroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E072821CE321A100E91A18 /* ZEBEasyMacro */ = {
+			isa = PBXGroup;
+			children = (
+				18E072C11CE3222B00E91A18 /* 关键宏 */,
+				18E072C01CE3222000E91A18 /* 常用方法 */,
+				18E072861CE321A100E91A18 /* AppDelegate.h */,
+				18E072871CE321A100E91A18 /* AppDelegate.m */,
+				18E072891CE321A100E91A18 /* ViewController.h */,
+				18E0728A1CE321A100E91A18 /* ViewController.m */,
+				18E0728C1CE321A100E91A18 /* Main.storyboard */,
+				18E0728F1CE321A100E91A18 /* Assets.xcassets */,
+				18E072911CE321A100E91A18 /* LaunchScreen.storyboard */,
+				18E072941CE321A100E91A18 /* Info.plist */,
+				18E072831CE321A100E91A18 /* Supporting Files */,
+			);
+			path = ZEBEasyMacro;
+			sourceTree = "<group>";
+		};
+		18E072831CE321A100E91A18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E072841CE321A100E91A18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E0729C1CE321A100E91A18 /* ZEBEasyMacroTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E0729D1CE321A100E91A18 /* ZEBEasyMacroTests.m */,
+				18E0729F1CE321A100E91A18 /* Info.plist */,
+			);
+			path = ZEBEasyMacroTests;
+			sourceTree = "<group>";
+		};
+		18E072A71CE321A100E91A18 /* ZEBEasyMacroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E072A81CE321A100E91A18 /* ZEBEasyMacroUITests.m */,
+				18E072AA1CE321A100E91A18 /* Info.plist */,
+			);
+			path = ZEBEasyMacroUITests;
+			sourceTree = "<group>";
+		};
+		18E072B61CE3220900E91A18 /* LZXHelper */ = {
+			isa = PBXGroup;
+			children = (
+				18E072B71CE3220900E91A18 /* LZXHelper.h */,
+				18E072B81CE3220900E91A18 /* LZXHelper.m */,
+				18E072B91CE3220900E91A18 /* NSString+Tools.h */,
+				18E072BA1CE3220900E91A18 /* NSString+Tools.m */,
+			);
+			path = LZXHelper;
+			sourceTree = "<group>";
+		};
+		18E072BB1CE3220900E91A18 /* ZEBEasy */ = {
+			isa = PBXGroup;
+			children = (
+				18E072BC1CE3220900E91A18 /* ZEBEasyConstant.h */,
+				18E072BD1CE3220900E91A18 /* ZEBEasyMacro.h */,
+			);
+			path = ZEBEasy;
+			sourceTree = "<group>";
+		};
+		18E072C01CE3222000E91A18 /* 常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				18E072B61CE3220900E91A18 /* LZXHelper */,
+			);
+			name = "常用方法";
+			sourceTree = "<group>";
+		};
+		18E072C11CE3222B00E91A18 /* 关键宏 */ = {
+			isa = PBXGroup;
+			children = (
+				18E072BB1CE3220900E91A18 /* ZEBEasy */,
+			);
+			name = "关键宏";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E0727F1CE321A100E91A18 /* ZEBEasyMacro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E072AD1CE321A100E91A18 /* Build configuration list for PBXNativeTarget "ZEBEasyMacro" */;
+			buildPhases = (
+				18E0727C1CE321A100E91A18 /* Sources */,
+				18E0727D1CE321A100E91A18 /* Frameworks */,
+				18E0727E1CE321A100E91A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZEBEasyMacro;
+			productName = ZEBEasyMacro;
+			productReference = 18E072801CE321A100E91A18 /* ZEBEasyMacro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E072981CE321A100E91A18 /* ZEBEasyMacroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E072B01CE321A100E91A18 /* Build configuration list for PBXNativeTarget "ZEBEasyMacroTests" */;
+			buildPhases = (
+				18E072951CE321A100E91A18 /* Sources */,
+				18E072961CE321A100E91A18 /* Frameworks */,
+				18E072971CE321A100E91A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E0729B1CE321A100E91A18 /* PBXTargetDependency */,
+			);
+			name = ZEBEasyMacroTests;
+			productName = ZEBEasyMacroTests;
+			productReference = 18E072991CE321A100E91A18 /* ZEBEasyMacroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E072A31CE321A100E91A18 /* ZEBEasyMacroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E072B31CE321A100E91A18 /* Build configuration list for PBXNativeTarget "ZEBEasyMacroUITests" */;
+			buildPhases = (
+				18E072A01CE321A100E91A18 /* Sources */,
+				18E072A11CE321A100E91A18 /* Frameworks */,
+				18E072A21CE321A100E91A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E072A61CE321A100E91A18 /* PBXTargetDependency */,
+			);
+			name = ZEBEasyMacroUITests;
+			productName = ZEBEasyMacroUITests;
+			productReference = 18E072A41CE321A100E91A18 /* ZEBEasyMacroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E072781CE321A100E91A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E0727F1CE321A100E91A18 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					18E072981CE321A100E91A18 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18E0727F1CE321A100E91A18;
+					};
+					18E072A31CE321A100E91A18 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18E0727F1CE321A100E91A18;
+					};
+				};
+			};
+			buildConfigurationList = 18E0727B1CE321A100E91A18 /* Build configuration list for PBXProject "ZEBEasyMacro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E072771CE321A100E91A18;
+			productRefGroup = 18E072811CE321A100E91A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E0727F1CE321A100E91A18 /* ZEBEasyMacro */,
+				18E072981CE321A100E91A18 /* ZEBEasyMacroTests */,
+				18E072A31CE321A100E91A18 /* ZEBEasyMacroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E0727E1CE321A100E91A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E072931CE321A100E91A18 /* LaunchScreen.storyboard in Resources */,
+				18E072901CE321A100E91A18 /* Assets.xcassets in Resources */,
+				18E0728E1CE321A100E91A18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E072971CE321A100E91A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E072A21CE321A100E91A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E0727C1CE321A100E91A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E072BE1CE3220900E91A18 /* LZXHelper.m in Sources */,
+				18E0728B1CE321A100E91A18 /* ViewController.m in Sources */,
+				18E072BF1CE3220900E91A18 /* NSString+Tools.m in Sources */,
+				18E072881CE321A100E91A18 /* AppDelegate.m in Sources */,
+				18E072851CE321A100E91A18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E072951CE321A100E91A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0729E1CE321A100E91A18 /* ZEBEasyMacroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E072A01CE321A100E91A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E072A91CE321A100E91A18 /* ZEBEasyMacroUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E0729B1CE321A100E91A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E0727F1CE321A100E91A18 /* ZEBEasyMacro */;
+			targetProxy = 18E0729A1CE321A100E91A18 /* PBXContainerItemProxy */;
+		};
+		18E072A61CE321A100E91A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E0727F1CE321A100E91A18 /* ZEBEasyMacro */;
+			targetProxy = 18E072A51CE321A100E91A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E0728C1CE321A100E91A18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E0728D1CE321A100E91A18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E072911CE321A100E91A18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E072921CE321A100E91A18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E072AB1CE321A100E91A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E072AC1CE321A100E91A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E072AE1CE321A100E91A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZEBEasyMacro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBEasyMacro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E072AF1CE321A100E91A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZEBEasyMacro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBEasyMacro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18E072B11CE321A100E91A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZEBEasyMacroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBEasyMacroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEBEasyMacro.app/ZEBEasyMacro";
+			};
+			name = Debug;
+		};
+		18E072B21CE321A100E91A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZEBEasyMacroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBEasyMacroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEBEasyMacro.app/ZEBEasyMacro";
+			};
+			name = Release;
+		};
+		18E072B41CE321A100E91A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZEBEasyMacroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBEasyMacroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEBEasyMacro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18E072B51CE321A100E91A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZEBEasyMacroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBEasyMacroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEBEasyMacro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E0727B1CE321A100E91A18 /* Build configuration list for PBXProject "ZEBEasyMacro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E072AB1CE321A100E91A18 /* Debug */,
+				18E072AC1CE321A100E91A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E072AD1CE321A100E91A18 /* Build configuration list for PBXNativeTarget "ZEBEasyMacro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E072AE1CE321A100E91A18 /* Debug */,
+				18E072AF1CE321A100E91A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E072B01CE321A100E91A18 /* Build configuration list for PBXNativeTarget "ZEBEasyMacroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E072B11CE321A100E91A18 /* Debug */,
+				18E072B21CE321A100E91A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E072B31CE321A100E91A18 /* Build configuration list for PBXNativeTarget "ZEBEasyMacroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E072B41CE321A100E91A18 /* Debug */,
+				18E072B51CE321A100E91A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E072781CE321A100E91A18 /* Project object */;
+}
